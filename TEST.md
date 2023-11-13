@@ -23,6 +23,8 @@ flask_cors==4.0.0
 flask_restx==1.2.0
 gevent==23.9.1
 audio-recorder-streamlit==0.0.8
+PyQt5==5.15.10
+umap-learn==0.5.4
 ```
 
 
@@ -30,5 +32,9 @@ audio-recorder-streamlit==0.0.8
 ### 运行：
 
 ```bash
+# web UI
 LD_LIBRARY_PATH= python3.9 web.py
+
+# QT
+LD_LIBRARY_PATH= python3.9 demo_toolbox.py
 ```
