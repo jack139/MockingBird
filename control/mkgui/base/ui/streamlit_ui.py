@@ -12,7 +12,7 @@ import pandas as pd
 import streamlit as st
 from fastapi.encoders import jsonable_encoder
 from loguru import logger
-from pydantic import BaseModel, ValidationError, parse_obj_as
+from pydantic.v1 import BaseModel, ValidationError, parse_obj_as
 
 from control.mkgui.base import Opyrator
 from control.mkgui.base.core import name_to_title

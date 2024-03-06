@@ -6,7 +6,7 @@ from typing import Any, Tuple
 import librosa
 import matplotlib.pyplot as plt
 import torch
-from pydantic import BaseModel, Field
+from pydantic.v1 import BaseModel, Field
 from scipy.io.wavfile import write
 
 import models.ppg2mel as Convertor

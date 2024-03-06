@@ -4,7 +4,7 @@ import inspect
 from typing import Any, Type
 
 from fastapi import FastAPI, Form
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 
 def as_form(cls: Type[BaseModel]) -> Any:
